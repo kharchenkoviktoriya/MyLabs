@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Parameter>
+    <Name>Text1</Name>
+    <Description>Текстовое поле 1</Description>
+    <Type>String</Type>
+    <Value>ABC</Value>
+  </Parameter>
+  <Parameter>
+    <Name>Text2</Name>
+    <Description>Текстовое поле 2</Description>
+    <Type>String</Type>
+    <Value>DEF</Value>
+  </Parameter>
+  <Parameter>
+    <Name>Int3</Name>
+    <Description>Числовое поле 1</Description>
+    <Type>Int</Type>
+    <Value>1293</Value>
+  </Parameter>
+  <Parameter>
+    <Name>Bool4</Name>
+    <Description>Check</Description>
+    <Type>Bool</Type>
+    <Value>True</Value>
+  </Parameter>
+</ArrayOfParameter>

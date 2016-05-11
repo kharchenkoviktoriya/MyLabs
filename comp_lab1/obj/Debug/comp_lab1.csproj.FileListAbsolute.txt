@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\comp_lab1\comp_lab1\bin\comp_lab1.dll
+C:\Users\User\Desktop\comp_lab1\comp_lab1\bin\comp_lab1.pdb
+C:\Users\User\Desktop\comp_lab1\comp_lab1\obj\Debug\comp_lab1.dll
+C:\Users\User\Desktop\comp_lab1\comp_lab1\obj\Debug\comp_lab1.pdb
