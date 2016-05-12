@@ -17,7 +17,7 @@ namespace comp_lab1
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack && !reload)
-                data = XmlParser("D:/home/MyLabs/comp_lab1/Input.xml");//(AppDomain.CurrentDomain.BaseDirectory + "/Input.xml");
+                data = XmlParser(@"D:\home\MyLabs\comp_lab1\Input.xml");//(AppDomain.CurrentDomain.BaseDirectory + "/Input.xml");
             for (int i = 0; i < data.Count; i++)
             {
                 ParameterControl elemControl = (ParameterControl)LoadControl("ParameterControl.ascx");
