@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Parameters>
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Parameter>
     <Name>Text1</Name>
     <Description>Текстовое поле 1</Description>
@@ -22,6 +22,6 @@
     <Name>Bool4</Name>
     <Description>Check</Description>
     <Type>Bool</Type>
-    <Value>True</Value>
+    <Value>False</Value>
   </Parameter>
-</Parameters>
+</ArrayOfParameter>
