@@ -45,7 +45,7 @@ namespace comp_lab1
         void save_Click(object sender, EventArgs e)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(List<Parameter>));
-            TextWriter writer = new StreamWriter("D:/home/site/repository/comp_lab1/Output.xml");//(AppDomain.CurrentDomain.BaseDirectory + "/Output.xml");
+            TextWriter writer = new StreamWriter("D:/home/site/repository/comp_lab1/Input.xml");//(AppDomain.CurrentDomain.BaseDirectory + "/Output.xml");
 
             data.Clear();
             for (int j = 0; j < form1.Controls.Count; j++)
@@ -79,7 +79,7 @@ namespace comp_lab1
             using (FileStream fs = new FileStream(filename, FileMode.Open))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(List<Parameter>),
-                    new XmlRootAttribute("Parameters"));
+                    new XmlRootAttribute("ArrayOfParameter"));
                 List<Parameter> parameters = (List<Parameter>)serializer.Deserialize(fs);
                 return parameters;
             }
